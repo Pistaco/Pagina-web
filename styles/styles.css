@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+body {
+    background: url("../media/minimal-background-pattern-wordpress-12.jpg");
+}
+
+h1 {
+    font-family: 'Red Rose', cursive;
+    font-size: 60px;
+}
+
+.flex-container-1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+@keyframes colors {
+    from {background-color:#42F903;}
+    to {background-color: #03F9EE;}
+}
+
+.flex-container-child-1 {
+    box-shadow: 21px 15px 2px 4px rgba(0,0,0,0.75);
+    font-size: 25px;
+    font-family: 'Sora', sans-serif;;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #42F903;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-child-1:hover{
+    animation-name: colors;
+    animation-duration: 1s;
+}
+
+.flex-container-child-1 h2 {
+    animation: none;
+}
+
+.flex-container-child-1 ul {
+    animation: none;
+}
+
+.text-1 {
+    max-width: 500px;
+    margin: auto;
+}
+
+.text-1 p {
+    font-size: 30px
+}
+
+.principal-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+body {
+}
